@@ -16,7 +16,7 @@ class BookDetails extends React.Component {
             </div>
         ) : (
             <div>
-                Selecciona un libro para ver sus detalles
+                Select a book to show its details
             </div>
         );
     }
