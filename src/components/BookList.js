@@ -41,3 +41,11 @@ function mapDispatchToProps(dispatch) {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(BookList);
+
+
+/*
+    Optionally use the shorthand notation for actions. Instead of using
+    bindActionCreators, pass the name of the action as the second parameter
+    in connect. Like this:
+    export default connect(mapStateToProps, { selectBook })(BooksList);
+*/
